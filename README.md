@@ -4,14 +4,7 @@ Smart Compression - Automatically detects the best algorithm  Batch Compression 
 FileCompressor Pro 📦
 https://via.placeholder.com/1200x400/4a6fa5/ffffff?text=FileCompressor+Pro+-+Smart+File+Compression
 
-<div align="center">
-https://img.shields.io/badge/ASP.NET%2520Core-6.0-purple?style=for-the-badge&logo=dotnet
-https://img.shields.io/badge/C%2523-239120?style=for-the-badge&logo=c-sharp&logoColor=white
-https://img.shields.io/badge/License-MIT-green?style=for-the-badge
-https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge
-https://img.shields.io/badge/Platform-Cross--Platform-lightgrey?style=for-the-badge
-
-</div>
+<p align="center"> <img src="https://img.shields.io/badge/ASP.NET%20Core-6.0-purple?style=for-the-badge&logo=dotnet" alt="ASP.NET Core 6"> <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"> <img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge" alt="Version"> <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey?style=for-the-badge" alt="Platform"> </p>
 ✨ Introduction
 FileCompressor Pro is an advanced, user-friendly file compression tool built with ASP.NET Core 6. This web application allows you to easily compress your files and reduce their size by up to 90% with intelligent compression algorithms and a modern, responsive interface.
 
@@ -19,86 +12,77 @@ https://Screenshot.png
 
 🎯 Key Features
 ⚡ Smart Compression
-Multi-format Support: ZIP, RAR, 7Z, TAR, GZIP
+Support for ZIP, RAR, 7Z, TAR, GZIP formats
 
-Auto Algorithm Detection: Intelligent format selection
+Automatic best-algorithm detection
 
-Batch Processing: Compress multiple files simultaneously
+Batch file processing
 
-Password Protection: AES-256 encryption for secure archives
-
-Split Archives: Divide large files into smaller parts
+Password protection with AES-256 encryption
 
 🎨 Modern UI/UX
-Fully Responsive: Works on mobile, tablet, and desktop
+Fully responsive design (mobile, tablet, desktop)
 
-Drag & Drop: Easy file upload interface
+Drag & Drop file upload
 
-Real-time Preview: Compression ratio estimation
+Real-time compression ratio estimation
 
-Dark/Light Themes: User preference support
+Dark/Light theme support
 
-Progress Tracking: Visual progress indicators
+Progress indicators and notifications
 
 🚀 High Performance
-Parallel Processing: Multi-threaded compression
+Parallel processing for faster compression
 
-Large File Support: Handles files up to 10GB
+Support for files up to 10GB
 
-Memory Efficient: Streaming architecture
+Memory-efficient streaming
 
-Async Operations: Non-blocking I/O operations
+Async/await pattern throughout
 
-🔒 Security Features
-Secure Processing: Temp file auto-cleanup
+🔒 Security
+Secure file handling with temp file cleanup
 
-Client Validation: File validation before upload
+Client-side file validation
 
-Rate Limiting: Protection against abuse
+Rate limiting and request validation
 
-No Storage: Files processed in-memory
+No file storage on server
 
 📊 Performance Benchmarks
-File Type	Size Reduction	Processing Speed	Notes
-Text Files (.txt, .csv, .json)	85-95%	⚡ Very Fast	Best for logs and data
-Images (.jpg, .png, .gif)	60-80%	⚡ Very Fast	Lossless compression
-Documents (.pdf, .docx, .xlsx)	70-90%	⚡ Very Fast	Maintains formatting
-Videos (.mp4, .avi, .mkv)	40-60%	🟡 Medium	Preserves quality
-Executables (.exe, .dll)	50-70%	🔵 Fast	Binary optimization
-Archives (.zip, .rar)	30-50%	🟡 Medium	Re-compression
+File Type	Average Size Reduction	Processing Speed
+Text Files (txt, csv)	85-95%	⚡ Very Fast
+Images (jpg, png)	60-80%	⚡ Very Fast
+Documents (pdf, docx)	70-90%	⚡ Very Fast
+Videos (mp4, avi)	40-60%	Medium
+Executables (exe, dll)	50-70%	Fast
 🛠️ Tech Stack
 Backend
-ASP.NET Core 6 - Modern web framework
+ASP.NET Core 6 - Web Framework
 
-C# 10 - Latest language features
+C# 10 - Programming Language
 
-SharpZipLib - Compression engine
+SharpZipLib - Compression Library
 
-Entity Framework Core 6 - Data access
-
-Serilog - Structured logging
+Entity Framework Core - Data Access
 
 Frontend
-HTML5 & CSS3 - Modern standards
+HTML5, CSS3, JavaScript - Core Web Technologies
 
-Bootstrap 5 - Responsive design
+Bootstrap 5 - Responsive Design
 
-JavaScript ES6 - Interactive features
+Font Awesome - Icons
 
-Font Awesome 6 - Icon library
+jQuery - DOM Manipulation
 
-jQuery 3.6 - DOM manipulation
-
-DevOps & Tools
+Tools & DevOps
 Docker - Containerization
 
-GitHub Actions - CI/CD pipeline
+GitHub Actions - CI/CD
 
-xUnit - Unit testing framework
+xUnit - Unit Testing
 
-Swagger - API documentation
-
-Postman - API testing
+Serilog - Logging
 
 📦 Installation & Setup
 Prerequisites
@@ -108,75 +92,4 @@ Visual Studio 2022 or VS Code
 
 Minimum 4GB RAM
 
-Windows 10+, Linux, or macOS
-🚀 How to Use
-Basic Usage
-Upload Files: Drag & drop or click to browse
-
-Select Options: Choose compression level and format
-
-Set Password (Optional): Add encryption
-
-Compress: Click the compress button
-
-Download: Save the compressed archive
-
-Advanced Features
-Batch Compression: Upload multiple files at once
-
-Custom Compression Level: Adjust compression ratio
-
-File Filtering: Exclude specific file types
-
-Archive Splitting: Divide large archives
-
-File Limits
-Max Single File: 10GB
-
-Max Batch Size: 50 files
-
-Max Total Size: 10GB per batch
-
-Supported Formats: All common file types
-🤝 Contributing
-We welcome contributions from the community! Here's how you can help:
-
-Contribution Process
-Fork the repository
-
-Create a feature branch: git checkout -b feature/amazing-feature
-
-Commit changes: git commit -m 'Add amazing feature'
-
-Push to branch: git push origin feature/amazing-feature
-
-Open a Pull Request
-
-Development Guidelines
-Follow C# Coding Conventions
-
-Write meaningful commit messages
-
-Add tests for new features
-
-Update documentation
-
-Ensure backward compatibility
-🐛 Issue Reporting
-When reporting issues, please include:
-
-Description: Clear explanation of the issue
-
-Steps to Reproduce: Detailed reproduction steps
-
-Expected Behavior: What should happen
-
-Actual Behavior: What actually happens
-
-Environment: OS, Browser, .NET Version
-
-Screenshots/Logs: If applicable
-👥 Authors & Contributors
-Ali HaniF - Initial development - AliHANiF2042
-
-Contributors - List of contributors
+Windows/Linux/macOS
