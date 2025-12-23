@@ -3,7 +3,14 @@ Smart Compression - Automatically detects the best algorithm  Batch Compression 
 FileCompressor Pro 📦
 https://via.placeholder.com/1200x400/4a6fa5/ffffff?text=FileCompressor+Pro+-+Smart+File+Compression
 
-<p align="center"> <img src="https://img.shields.io/badge/ASP.NET%20Core-6.0-purple?style=for-the-badge&logo=dotnet" alt="ASP.NET Core 6"> <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"> <img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge" alt="Version"> <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey?style=for-the-badge" alt="Platform"> </p>
+<div align="center">
+https://img.shields.io/badge/ASP.NET%2520Core-6.0-purple?style=for-the-badge&logo=dotnet
+https://img.shields.io/badge/C%2523-239120?style=for-the-badge&logo=c-sharp&logoColor=white
+https://img.shields.io/badge/License-MIT-green?style=for-the-badge
+https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge
+https://img.shields.io/badge/Platform-Cross--Platform-lightgrey?style=for-the-badge
+
+</div>
 ✨ Introduction
 FileCompressor Pro is an advanced, user-friendly file compression tool built with ASP.NET Core 6. This web application allows you to easily compress your files and reduce their size by up to 90% with intelligent compression algorithms and a modern, responsive interface.
 
@@ -11,77 +18,86 @@ https://Screenshot.png
 
 🎯 Key Features
 ⚡ Smart Compression
-Support for ZIP, RAR, 7Z, TAR, GZIP formats
+Multi-format Support: ZIP, RAR, 7Z, TAR, GZIP
 
-Automatic best-algorithm detection
+Auto Algorithm Detection: Intelligent format selection
 
-Batch file processing
+Batch Processing: Compress multiple files simultaneously
 
-Password protection with AES-256 encryption
+Password Protection: AES-256 encryption for secure archives
+
+Split Archives: Divide large files into smaller parts
 
 🎨 Modern UI/UX
-Fully responsive design (mobile, tablet, desktop)
+Fully Responsive: Works on mobile, tablet, and desktop
 
-Drag & Drop file upload
+Drag & Drop: Easy file upload interface
 
-Real-time compression ratio estimation
+Real-time Preview: Compression ratio estimation
 
-Dark/Light theme support
+Dark/Light Themes: User preference support
 
-Progress indicators and notifications
+Progress Tracking: Visual progress indicators
 
 🚀 High Performance
-Parallel processing for faster compression
+Parallel Processing: Multi-threaded compression
 
-Support for files up to 10GB
+Large File Support: Handles files up to 10GB
 
-Memory-efficient streaming
+Memory Efficient: Streaming architecture
 
-Async/await pattern throughout
+Async Operations: Non-blocking I/O operations
 
-🔒 Security
-Secure file handling with temp file cleanup
+🔒 Security Features
+Secure Processing: Temp file auto-cleanup
 
-Client-side file validation
+Client Validation: File validation before upload
 
-Rate limiting and request validation
+Rate Limiting: Protection against abuse
 
-No file storage on server
+No Storage: Files processed in-memory
 
 📊 Performance Benchmarks
-File Type	Average Size Reduction	Processing Speed
-Text Files (txt, csv)	85-95%	⚡ Very Fast
-Images (jpg, png)	60-80%	⚡ Very Fast
-Documents (pdf, docx)	70-90%	⚡ Very Fast
-Videos (mp4, avi)	40-60%	Medium
-Executables (exe, dll)	50-70%	Fast
+File Type	Size Reduction	Processing Speed	Notes
+Text Files (.txt, .csv, .json)	85-95%	⚡ Very Fast	Best for logs and data
+Images (.jpg, .png, .gif)	60-80%	⚡ Very Fast	Lossless compression
+Documents (.pdf, .docx, .xlsx)	70-90%	⚡ Very Fast	Maintains formatting
+Videos (.mp4, .avi, .mkv)	40-60%	🟡 Medium	Preserves quality
+Executables (.exe, .dll)	50-70%	🔵 Fast	Binary optimization
+Archives (.zip, .rar)	30-50%	🟡 Medium	Re-compression
 🛠️ Tech Stack
 Backend
-ASP.NET Core 6 - Web Framework
+ASP.NET Core 6 - Modern web framework
 
-C# 10 - Programming Language
+C# 10 - Latest language features
 
-SharpZipLib - Compression Library
+SharpZipLib - Compression engine
 
-Entity Framework Core - Data Access
+Entity Framework Core 6 - Data access
+
+Serilog - Structured logging
 
 Frontend
-HTML5, CSS3, JavaScript - Core Web Technologies
+HTML5 & CSS3 - Modern standards
 
-Bootstrap 5 - Responsive Design
+Bootstrap 5 - Responsive design
 
-Font Awesome - Icons
+JavaScript ES6 - Interactive features
 
-jQuery - DOM Manipulation
+Font Awesome 6 - Icon library
 
-Tools & DevOps
+jQuery 3.6 - DOM manipulation
+
+DevOps & Tools
 Docker - Containerization
 
-GitHub Actions - CI/CD
+GitHub Actions - CI/CD pipeline
 
-xUnit - Unit Testing
+xUnit - Unit testing framework
 
-Serilog - Logging
+Swagger - API documentation
+
+Postman - API testing
 
 📦 Installation & Setup
 Prerequisites
@@ -91,4 +107,59 @@ Visual Studio 2022 or VS Code
 
 Minimum 4GB RAM
 
-Windows/Linux/macOS
+Windows 10+, Linux, or macOS
+
+Quick Start with Docker (Recommended)
+bash
+# Clone the repository
+git clone https://github.com/AliHANiF2042/ASP.NETCore-File-Compressor.git
+cd ASP.NETCore-File-Compressor
+
+# Build and run with Docker Compose
+docker-compose up --build
+
+# Access the application
+http://localhost:8080
+Manual Setup
+bash
+# Clone repository
+git clone https://github.com/AliHANiF2042/ASP.NETCore-File-Compressor.git
+cd ASP.NETCore-File-Compressor
+
+# Restore dependencies
+dotnet restore
+
+# Run the application
+dotnet run
+
+# For development with hot reload
+dotnet watch run
+
+🐛 Issue Reporting
+When reporting issues, please include:
+
+Description: Clear explanation of the issue
+
+Steps to Reproduce: Detailed reproduction steps
+
+Expected Behavior: What should happen
+
+Actual Behavior: What actually happens
+
+Environment: OS, Browser, .NET Version
+
+Screenshots/Logs: If applicable
+
+👥 Authors & Contributors
+Ali HaniF - Initial development - AliHANiF2042
+
+Contributors - List of contributors
+
+🙏 Acknowledgments
+SharpZipLib - Compression library
+
+Bootstrap - Frontend framework
+
+Font Awesome - Icons
+
+.NET Foundation - .NET ecosystem
