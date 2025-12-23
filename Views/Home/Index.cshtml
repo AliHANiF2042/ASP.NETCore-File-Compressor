@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "فشرده‌ساز فایل";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1 class="card-title"><i class="fas fa-file-archive"></i> فشرده‌ساز فایل</h1>
+            <p class="card-subtitle">فایل‌های خود را فشرده کرده و حجم آن‌ها را کاهش دهید</p>
+        </div>
+        <div class="card-body">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <p class="upload-text">فایل خود را اینجا رها کنید یا برای انتخاب کلیک کنید</p>
+                <p class="upload-hint">حداکثر حجم فایل: 100 مگابایت</p>
+                <input type="file" id="fileInput" name="file">
+            </div>
+
+            <div class="file-info" id="fileInfo">
+                <div class="file-name" id="fileName"></div>
+                <div class="file-size" id="fileSize"></div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-primary" onclick="estimateCompression()">
+                    <i class="fas fa-chart-pie"></i> برآورد فشرده‌سازی
+                </button>
+                <button class="btn btn-success" onclick="compressFile()">
+                    <i class="fas fa-compress-arrows-alt"></i> فشرده‌سازی
+                </button>
+                <button class="btn btn-warning" onclick="decompressFile()">
+                    <i class="fas fa-expand-arrows-alt"></i> باز کردن فشرده
+                </button>
+            </div>
+
+            <div class="result-area" id="result">
+                <div class="alert alert-info">
+                    <h5 class="alert-title">نتایج فشرده‌سازی</h5>
+                    <div id="resultContent"></div>
+                </div>
+            </div>
+
+            <div class="result-area" id="error">
+                <div class="alert alert-danger">
+                    <h5 class="alert-title">خطا</h5>
+                    <div id="errorContent"></div>
+                </div>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>در حال پردازش فایل شما...</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 20px; padding: 15px; background: linear-gradient(90deg, #27445D 0%, #27667B 100%); color: white; border-radius: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <p style="margin: 0; font-size: 16px; font-weight: 600;">
+                <i class="fas fa-code" style="margin-left: 8px;"></i>Powered By AliHanif
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="/script/filescript.js"></script>
+    <script src="/script/indexscript.js"></script>
+}

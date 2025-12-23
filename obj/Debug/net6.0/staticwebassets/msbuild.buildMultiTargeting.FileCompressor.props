@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FileCompressor.props" />
+</Project>
