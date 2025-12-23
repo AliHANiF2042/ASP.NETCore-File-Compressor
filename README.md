@@ -108,33 +108,59 @@ Visual Studio 2022 or VS Code
 Minimum 4GB RAM
 
 Windows 10+, Linux, or macOS
+🚀 How to Use
+Basic Usage
+Upload Files: Drag & drop or click to browse
 
-Quick Start with Docker (Recommended)
-bash
-# Clone the repository
-git clone https://github.com/AliHANiF2042/ASP.NETCore-File-Compressor.git
-cd ASP.NETCore-File-Compressor
+Select Options: Choose compression level and format
 
-# Build and run with Docker Compose
-docker-compose up --build
+Set Password (Optional): Add encryption
 
-# Access the application
-http://localhost:8080
-Manual Setup
-bash
-# Clone repository
-git clone https://github.com/AliHANiF2042/ASP.NETCore-File-Compressor.git
-cd ASP.NETCore-File-Compressor
+Compress: Click the compress button
 
-# Restore dependencies
-dotnet restore
+Download: Save the compressed archive
 
-# Run the application
-dotnet run
+Advanced Features
+Batch Compression: Upload multiple files at once
 
-# For development with hot reload
-dotnet watch run
+Custom Compression Level: Adjust compression ratio
 
+File Filtering: Exclude specific file types
+
+Archive Splitting: Divide large archives
+
+File Limits
+Max Single File: 10GB
+
+Max Batch Size: 50 files
+
+Max Total Size: 10GB per batch
+
+Supported Formats: All common file types
+🤝 Contributing
+We welcome contributions from the community! Here's how you can help:
+
+Contribution Process
+Fork the repository
+
+Create a feature branch: git checkout -b feature/amazing-feature
+
+Commit changes: git commit -m 'Add amazing feature'
+
+Push to branch: git push origin feature/amazing-feature
+
+Open a Pull Request
+
+Development Guidelines
+Follow C# Coding Conventions
+
+Write meaningful commit messages
+
+Add tests for new features
+
+Update documentation
+
+Ensure backward compatibility
 🐛 Issue Reporting
 When reporting issues, please include:
 
@@ -149,17 +175,7 @@ Actual Behavior: What actually happens
 Environment: OS, Browser, .NET Version
 
 Screenshots/Logs: If applicable
-
 👥 Authors & Contributors
 Ali HaniF - Initial development - AliHANiF2042
 
 Contributors - List of contributors
-
-🙏 Acknowledgments
-SharpZipLib - Compression library
-
-Bootstrap - Frontend framework
-
-Font Awesome - Icons
-
-.NET Foundation - .NET ecosystem
