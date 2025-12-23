@@ -1,5 +1,6 @@
 # ASP.NETCore-File-Compressor
 Smart Compression - Automatically detects the best algorithm  Batch Compression - Process multiple files at the same time  AES-256 Encryption - Protect sensitive files  Split large files - Divide into smaller parts  Compression tricks - Reduce size by up to 90%
+
 FileCompressor Pro 📦
 https://via.placeholder.com/1200x400/4a6fa5/ffffff?text=FileCompressor+Pro+-+Smart+File+Compression
 
